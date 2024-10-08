@@ -1,0 +1,25 @@
+name: <Fibonacci-Sequence>
+
+on: push
+
+jobs:
+  job_1:
+    name: Fibonacci-Sequence
+    runs-on: Ubuntu latest
+    steps:
+      - name: check
+        run: |
+          <commands>
+      - name: <step 2>
+        run: |
+          <commands>
+  job_2:
+    name: 
+    runs-on: Ubuntu latest
+    steps:
+      - name: Fibonacci-Sequence
+        run: |
+          <commands>
+      - name: 
+        run: |
+          <commands>
